@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="openlauncherlib-3.0.5">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../openlauncherlib-3.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../s-update-3.1.0-BETA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../swinger-1.0.0-BETA.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../openauth-1.0.3-SNAPSHOT.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/Loggout/src" />
+    </SOURCES>
+  </library>
+</component>

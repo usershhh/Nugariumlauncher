@@ -1,0 +1,5 @@
+[12:09:46] [Thread-3/ERROR]: Can't find the resource index file: C:\Users\tanou\AppData\Roaming\.Nugarium\assets\indexes\1.7.10.json
+[12:09:46] [Thread-3/INFO]: Setting user: Simeyte
+[12:09:49] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:09:50] [Client thread/ERROR]: Couldn't initialize twitch stream
+[12:09:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge

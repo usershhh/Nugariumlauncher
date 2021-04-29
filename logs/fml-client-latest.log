@@ -1,0 +1,608 @@
+[12:09:40] [Thread-3/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[12:09:40] [Thread-3/INFO] [FML/]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
+[12:09:40] [Thread-3/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_201, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_201\jre
+[12:09:40] [Thread-3/DEBUG] [FML/]: Java classpath at launch is C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar;C:\Users\tanou\eclipse-workspace\launcher\bin;E:\openlauncherlib-2.1-SNAPSHOT.jar;E:\s-update-3.1.0-BETA.jar;E:\jar_files.zip;E:\openauth-1.0.3-SNAPSHOT.jar;E:\swinger-1.0.0-BETA.jar;E:\openlauncherlib-3.0.5.jar;E:\telechargements\discord-rpc.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\lib\idea_rt.jar
+[12:09:40] [Thread-3/DEBUG] [FML/]: Java library path at launch is C:\Users\tanou\AppData\Roaming\.Nugarium\natives
+[12:09:40] [Thread-3/DEBUG] [FML/]: Enabling runtime deobfuscation
+[12:09:40] [Thread-3/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[12:09:40] [Thread-3/DEBUG] [FML/]: Added access transformer class cpw.mods.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[12:09:40] [Thread-3/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[12:09:40] [Thread-3/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[12:09:40] [Thread-3/DEBUG] [FML/]: Added access transformer class net.minecraftforge.transformers.ForgeAccessTransformer to enqueued access transformers
+[12:09:40] [Thread-3/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[12:09:40] [Thread-3/DEBUG] [FML/]: All fundamental core mods are successfully located
+[12:09:40] [Thread-3/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to C:\Users\tanou\AppData\Roaming\.Nugarium
+[12:09:40] [Thread-3/DEBUG] [FML/]: Discovering coremods
+[12:09:40] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:09:40] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:09:40] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:09:40] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[12:09:40] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:09:40] [Thread-3/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin} class transformers
+[12:09:40] [Thread-3/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.MarkerTransformer
+[12:09:40] [Thread-3/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.SideTransformer
+[12:09:40] [Thread-3/TRACE] [FML/]: Registering transformer cpw.mods.fml.common.asm.transformers.EventSubscriptionTransformer
+[12:09:40] [Thread-3/DEBUG] [FML/]: Injection complete
+[12:09:40] [Thread-3/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {cpw.mods.fml.relauncher.FMLCorePlugin}
+[12:09:40] [Thread-3/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[12:09:41] [Thread-3/DEBUG] [FML/]: Read 527 binary patches
+[12:09:43] [Thread-3/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[12:09:43] [Thread-3/INFO] [FML/]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[12:09:43] [Thread-3/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[12:09:43] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[12:09:43] [Thread-3/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[12:09:43] [Thread-3/TRACE] [FML/]: Registering transformer net.minecraftforge.classloading.FluidIdTransformer
+[12:09:43] [Thread-3/DEBUG] [FML/]: Injection complete
+[12:09:43] [Thread-3/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[12:09:43] [Thread-3/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[12:09:43] [Thread-3/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[12:09:43] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[12:09:43] [Thread-3/DEBUG] [FML/]: Loaded 57 rules from AccessTransformer config file fml_at.cfg
+[12:09:43] [Thread-3/DEBUG] [FML/]: Loaded 89 rules from AccessTransformer config file forge_at.cfg
+[12:09:43] [Thread-3/DEBUG] [FML/]: Validating minecraft
+[12:09:44] [Thread-3/DEBUG] [FML/]: Minecraft validated, launching...
+[12:09:44] [Thread-3/INFO] [LaunchWrapper/]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[12:09:44] [Thread-3/INFO] [LaunchWrapper/]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[12:09:45] [Thread-3/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[12:09:50] [Client thread/INFO] [STDOUT/]: [tv.twitch.StandardCoreAPI:<init>:16]: If on Windows, make sure to provide all of the necessary dll's as specified in the twitchsdk README. Also, make sure to set the PATH environment variable to point to the directory containing the dll's.
+[12:09:51] [Client thread/DEBUG] [FML/]: Bar Finished: Loading Resource - LanguageManager took 0,119s
+[12:09:51] [Client thread/INFO] [STDOUT/]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 31/10/19 12:09
+Description: Loading screen debug info
+
+This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 70864904 bytes (67 MB) / 436731904 bytes (416 MB) up to 2854223872 bytes (2722 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 430.64' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+[12:09:51] [Client thread/INFO] [MinecraftForge/]: Attempting early MinecraftForge initialization
+[12:09:51] [Client thread/INFO] [FML/]: MinecraftForge v10.13.4.1558 Initialized
+[12:09:51] [Client thread/INFO] [FML/]: Replaced 183 ore recipies
+[12:09:51] [Client thread/INFO] [MinecraftForge/]: Completed early MinecraftForge initialization
+[12:09:51] [Client thread/DEBUG] [FML/]: File C:\Users\tanou\AppData\Roaming\.Nugarium\config\injectedDependencies.json not found. No dependencies injected
+[12:09:52] [Client thread/DEBUG] [FML/]: Building injected Mod Containers [cpw.mods.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[12:09:52] [Client thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\charsets.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\deploy.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\access-bridge-64.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\cldrdata.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\dnsns.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jaccess.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\jfxrt.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\localedata.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\nashorn.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunec.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunjce_provider.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunmscapi.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\sunpkcs11.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\ext\zipfs.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\javaws.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\jce.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfr.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\jfxswt.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\jsse.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\management-agent.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\plugin.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\Java\jdk1.8.0_201\jre\lib\resources.jar, examining for mod candidates
+[12:09:52] [Client thread/TRACE] [FML/]: Skipping known library file C:\Program Files\Java\jdk1.8.0_201\jre\lib\rt.jar
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related directory at C:\Users\tanou\eclipse-workspace\launcher\bin, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\openlauncherlib-2.1-SNAPSHOT.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\s-update-3.1.0-BETA.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\jar_files.zip, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\openauth-1.0.3-SNAPSHOT.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\swinger-1.0.0-BETA.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\openlauncherlib-3.0.5.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at E:\telechargements\discord-rpc.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2018.3.5\lib\idea_rt.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\akka-actor_2.11-2.3.3.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\asm-all-5.0.3.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\authlib-1.5.21.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\codecjorbis-20101023.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\codecwav-20101023.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-codec-1.9.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-compress-1.8.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-io-2.4.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-lang3-3.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-lang3-3.3.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\commons-logging-1.1.3.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\config-1.2.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\forge-1.7.10-10.13.4.1558-1.7.10.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\gson-2.2.4.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\guava-17.0.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\httpclient-4.3.3.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\httpcore-4.3.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\icu4j-core-mojang-51.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\jinput-2.0.5.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\jopt-simple-4.5.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\jutils-1.0.0.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\launchwrapper-1.12.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\libraryjavasound-20101123.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\librarylwjglopenal-20100824.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\log4j-api-2.0-beta9.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\log4j-core-2.0-beta9.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\lwjgl-2.9.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\lwjgl_util-2.9.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\lzma-0.0.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\netty-1.6.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\netty-all-4.0.10.Final.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\realms-1.3.5.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-actors-migration_2.11-1.1.0.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-continuations-library_2.11-1.0.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-continuations-plugin_2.11.1-1.0.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-parser-combinators_2.11-1.0.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-reflect-2.11.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-swing_2.11-1.0.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\scala-xml_2.11-1.0.2.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\soundsystem-20120107.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\trove4j-3.0.3.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\twitch-5.16.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\libs\vecmath-1.3.1.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a minecraft related file at C:\Users\tanou\AppData\Roaming\.Nugarium\minecraft.jar, examining for mod candidates
+[12:09:52] [Client thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[12:09:52] [Client thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[12:09:52] [Client thread/INFO] [FML/]: Searching C:\Users\tanou\AppData\Roaming\.Nugarium\mods for mods
+[12:09:52] [Client thread/DEBUG] [FML/]: Found a candidate mod directory 1.7.10
+[12:09:52] [Client thread/INFO] [FML/]: Also searching C:\Users\tanou\AppData\Roaming\.Nugarium\mods\1.7.10 for mods
+[12:09:52] [Client thread/DEBUG] [FML/]: Examining file charsets.jar for potential mods
+[12:09:52] [Client thread/DEBUG] [FML/]: The mod container charsets.jar appears to be missing an mcmod.info file
+[12:09:52] [Client thread/DEBUG] [FML/]: Examining file deploy.jar for potential mods
+[12:09:52] [Client thread/DEBUG] [FML/]: The mod container deploy.jar appears to be missing an mcmod.info file
+[12:09:53] [Client thread/DEBUG] [FML/]: Examining file access-bridge-64.jar for potential mods
+[12:09:53] [Client thread/DEBUG] [FML/]: The mod container access-bridge-64.jar appears to be missing an mcmod.info file
+[12:09:53] [Client thread/DEBUG] [FML/]: Examining file cldrdata.jar for potential mods
+[12:09:53] [Client thread/DEBUG] [FML/]: The mod container cldrdata.jar appears to be missing an mcmod.info file
+[12:09:53] [Client thread/DEBUG] [FML/]: Examining file dnsns.jar for potential mods
+[12:09:53] [Client thread/DEBUG] [FML/]: The mod container dnsns.jar appears to be missing an mcmod.info file
+[12:09:53] [Client thread/DEBUG] [FML/]: Examining file jaccess.jar for potential mods
+[12:09:53] [Client thread/DEBUG] [FML/]: The mod container jaccess.jar appears to be missing an mcmod.info file
+[12:09:53] [Client thread/DEBUG] [FML/]: Examining file jfxrt.jar for potential mods
+[12:09:53] [Client thread/DEBUG] [FML/]: The mod container jfxrt.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file localedata.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container localedata.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file nashorn.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container nashorn.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file sunec.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container sunec.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file sunjce_provider.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container sunjce_provider.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file sunmscapi.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container sunmscapi.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file sunpkcs11.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container sunpkcs11.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file zipfs.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container zipfs.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file javaws.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container javaws.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file jce.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container jce.jar appears to be missing an mcmod.info file
+[12:09:54] [Client thread/DEBUG] [FML/]: Examining file jfr.jar for potential mods
+[12:09:54] [Client thread/DEBUG] [FML/]: The mod container jfr.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file jfxswt.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container jfxswt.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file jsse.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container jsse.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file management-agent.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container management-agent.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file plugin.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container plugin.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file resources.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container resources.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining directory bin for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory bin
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package clientname
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package fr
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package fr.launcher
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package fr.launcher.loukium
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package fr.launcher.loukium.resources
+[12:09:55] [Client thread/TRACE] [FML/]: Recursing into package META-INF
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file openlauncherlib-2.1-SNAPSHOT.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container openlauncherlib-2.1-SNAPSHOT.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file s-update-3.1.0-BETA.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container s-update-3.1.0-BETA.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file jar_files.zip for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container jar_files.zip appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file openauth-1.0.3-SNAPSHOT.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container openauth-1.0.3-SNAPSHOT.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file swinger-1.0.0-BETA.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container swinger-1.0.0-BETA.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file openlauncherlib-3.0.5.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container openlauncherlib-3.0.5.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file discord-rpc.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container discord-rpc.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file idea_rt.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container idea_rt.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file akka-actor_2.11-2.3.3.jar for potential mods
+[12:09:55] [Client thread/WARN] [FML/]: Zip file akka-actor_2.11-2.3.3.jar failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_201]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173) [openlauncherlib-3.0.5.jar:?]
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76) [bin/:?]
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133) [bin/:?]
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file asm-all-5.0.3.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container asm-all-5.0.3.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file authlib-1.5.21.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container authlib-1.5.21.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file codecjorbis-20101023.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container codecjorbis-20101023.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file codecwav-20101023.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container codecwav-20101023.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-codec-1.9.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container commons-codec-1.9.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-compress-1.8.1.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container commons-compress-1.8.1.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-io-2.4.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container commons-io-2.4.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.1.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container commons-lang3-3.1.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-lang3-3.3.2.jar for potential mods
+[12:09:55] [Client thread/WARN] [FML/]: Zip file commons-lang3-3.3.2.jar failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_201]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173) [openlauncherlib-3.0.5.jar:?]
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76) [bin/:?]
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133) [bin/:?]
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file commons-logging-1.1.3.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container commons-logging-1.1.3.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file config-1.2.1.jar for potential mods
+[12:09:55] [Client thread/WARN] [FML/]: Zip file config-1.2.1.jar failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_201]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173) [openlauncherlib-3.0.5.jar:?]
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76) [bin/:?]
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133) [bin/:?]
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file forge-1.7.10-10.13.4.1558-1.7.10.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container forge-1.7.10-10.13.4.1558-1.7.10.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file gson-2.2.4.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container gson-2.2.4.jar appears to be missing an mcmod.info file
+[12:09:55] [Client thread/DEBUG] [FML/]: Examining file guava-17.0.jar for potential mods
+[12:09:55] [Client thread/DEBUG] [FML/]: The mod container guava-17.0.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file httpclient-4.3.3.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container httpclient-4.3.3.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file httpcore-4.3.2.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container httpcore-4.3.2.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file icu4j-core-mojang-51.2.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container icu4j-core-mojang-51.2.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file jinput-2.0.5.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container jinput-2.0.5.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file jopt-simple-4.5.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container jopt-simple-4.5.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file jutils-1.0.0.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container jutils-1.0.0.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file launchwrapper-1.12.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container launchwrapper-1.12.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file libraryjavasound-20101123.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container libraryjavasound-20101123.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file librarylwjglopenal-20100824.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container librarylwjglopenal-20100824.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file log4j-api-2.0-beta9.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container log4j-api-2.0-beta9.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file log4j-core-2.0-beta9.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container log4j-core-2.0-beta9.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file lwjgl-2.9.1.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container lwjgl-2.9.1.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file lwjgl_util-2.9.1.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container lwjgl_util-2.9.1.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file lzma-0.0.1.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container lzma-0.0.1.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file netty-1.6.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container netty-1.6.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file netty-all-4.0.10.Final.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container netty-all-4.0.10.Final.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file realms-1.3.5.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container realms-1.3.5.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file scala-actors-migration_2.11-1.1.0.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container scala-actors-migration_2.11-1.1.0.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-library_2.11-1.0.2.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-library_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file scala-continuations-plugin_2.11.1-1.0.2.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container scala-continuations-plugin_2.11.1-1.0.2.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file scala-parser-combinators_2.11-1.0.1.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container scala-parser-combinators_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[12:09:56] [Client thread/DEBUG] [FML/]: Examining file scala-reflect-2.11.1.jar for potential mods
+[12:09:56] [Client thread/DEBUG] [FML/]: The mod container scala-reflect-2.11.1.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file scala-swing_2.11-1.0.1.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container scala-swing_2.11-1.0.1.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file scala-xml_2.11-1.0.2.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container scala-xml_2.11-1.0.2.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file soundsystem-20120107.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container soundsystem-20120107.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file trove4j-3.0.3.jar for potential mods
+[12:09:57] [Client thread/WARN] [FML/]: Zip file trove4j-3.0.3.jar failed to read properly, it will be ignored
+java.util.zip.ZipException: error in opening zip file
+	at java.util.zip.ZipFile.open(Native Method) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:225) ~[?:1.8.0_201]
+	at java.util.zip.ZipFile.<init>(ZipFile.java:155) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:166) ~[?:1.8.0_201]
+	at java.util.jar.JarFile.<init>(JarFile.java:130) ~[?:1.8.0_201]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:41) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:131) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:364) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:489) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480) [bao.class:?]
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878) [bao.class:?]
+	at net.minecraft.client.main.Main.main(SourceFile:148) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_201]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_201]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_201]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_201]
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173) [openlauncherlib-3.0.5.jar:?]
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76) [bin/:?]
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133) [bin/:?]
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file twitch-5.16.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container twitch-5.16.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file vecmath-1.3.1.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container vecmath-1.3.1.jar appears to be missing an mcmod.info file
+[12:09:57] [Client thread/DEBUG] [FML/]: Examining file minecraft.jar for potential mods
+[12:09:57] [Client thread/DEBUG] [FML/]: The mod container minecraft.jar appears to be missing an mcmod.info file
+[12:09:58] [Client thread/DEBUG] [FML/]: Examining directory 1.7.10 for potential mods
+[12:09:58] [Client thread/DEBUG] [FML/]: No mcmod.info file found in directory 1.7.10
+[12:09:58] [Client thread/INFO] [FML/]: Forge Mod Loader has identified 3 mods to load
+[12:09:58] [Client thread/TRACE] [FML/]: Received a system property request ''
+[12:09:58] [Client thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[12:09:58] [Client thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[12:09:58] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[12:09:58] [Client thread/DEBUG] [FML/]: Found translations in forge-1.7.10-10.13.4.1558-1.7.10.jar [en_US, en_US, es_ES, fr_FR, ru_RU, de_DE, af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, el_GR, fa_IR, fi_FI, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[12:09:58] [Client thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[12:09:58] [Client thread/TRACE] [FML/]: All mod requirements are satisfied
+[12:09:58] [Client thread/TRACE] [FML/]: Sorting mods into an ordered list
+[12:09:58] [Client thread/TRACE] [FML/]: Mod sorting completed successfully
+[12:09:58] [Client thread/DEBUG] [FML/]: Mod sorting data
+[12:09:58] [Client thread/DEBUG] [FML/]: No user mods found to sort
+[12:09:58] [Client thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[12:09:58] [Client thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[12:09:58] [Client thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,005s
+[12:09:58] [Client thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[12:09:58] [Client thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[12:09:58] [Client thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[12:09:58] [Client thread/TRACE] [FML/FML]: The mod FML accepts its own version (7.10.99.99)
+[12:09:58] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at CLIENT
+[12:09:58] [Client thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge] at SERVER
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Step: Loading Resources - Default took 0,027s
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Step: Loading Resources - FMLFileResourcePack:Forge Mod Loader took 0,003s
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Step: Loading Resources - FMLFileResourcePack:Minecraft Forge took 0,002s
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Finished: Reloading - LanguageManager took 0,038s
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Step: Loading Resources - Reloading listeners took 0,039s
+[12:09:59] [Client thread/DEBUG] [FML/FML]: Bar Finished: Loading Resources took 0,071s
+[12:09:59] [Client thread/DEBUG] [Forge Mod Loader/FML]: Mod Forge Mod Loader is missing a pack.mcmeta file, substituting a dummy one
+[12:09:59] [Client thread/DEBUG] [Minecraft Forge/FML]: Mod Minecraft Forge is missing a pack.mcmeta file, substituting a dummy one
+[12:09:59] [Client thread/INFO] [STDOUT/FML]: [net.minecraft.client.Minecraft:func_71377_b:349]: ---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 31/10/19 12:09
+Description: Initializing game
+
+java.lang.NoClassDefFoundError: gnu/trove/map/hash/TByteObjectHashMap
+	at cpw.mods.fml.common.network.FMLIndexedMessageToMessageCodec.<init>(FMLIndexedMessageToMessageCodec.java:19)
+	at cpw.mods.fml.common.network.internal.FMLRuntimeCodec.<init>(FMLRuntimeCodec.java:13)
+	at cpw.mods.fml.common.network.internal.FMLNetworkHandler.registerChannel(FMLNetworkHandler.java:163)
+	at cpw.mods.fml.common.FMLContainer.modConstruction(FMLContainer.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173)
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76)
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133)
+Caused by: java.lang.ClassNotFoundException: gnu.trove.map.hash.TByteObjectHashMap
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 43 more
+Caused by: java.lang.NullPointerException
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+	... 45 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at cpw.mods.fml.common.network.FMLIndexedMessageToMessageCodec.<init>(FMLIndexedMessageToMessageCodec.java:19)
+	at cpw.mods.fml.common.network.internal.FMLRuntimeCodec.<init>(FMLRuntimeCodec.java:13)
+	at cpw.mods.fml.common.network.internal.FMLNetworkHandler.registerChannel(FMLNetworkHandler.java:163)
+	at cpw.mods.fml.common.FMLContainer.modConstruction(FMLContainer.java:84)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.sendEventToModContainer(LoadController.java:212)
+	at cpw.mods.fml.common.LoadController.propogateStateMessage(LoadController.java:190)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.EventSubscriber.handleEvent(EventSubscriber.java:74)
+	at com.google.common.eventbus.SynchronizedEventSubscriber.handleEvent(SynchronizedEventSubscriber.java:47)
+	at com.google.common.eventbus.EventBus.dispatch(EventBus.java:322)
+	at com.google.common.eventbus.EventBus.dispatchQueuedEvents(EventBus.java:304)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:275)
+	at cpw.mods.fml.common.LoadController.distributeStateMessage(LoadController.java:119)
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:513)
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:208)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:480)
+
+-- Initialization --
+Details:
+Stacktrace:
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:878)
+	at net.minecraft.client.main.Main.main(SourceFile:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at fr.theshark34.openlauncherlib.internal.InternalLauncher.launch(InternalLauncher.java:173)
+	at fr.launcher.loukium.Nugarlauncher.launch(Nugarlauncher.java:76)
+	at fr.launcher.loukium.LauncherPanel$1.run(LauncherPanel.java:133)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_201, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 475427000 bytes (453 MB) / 704643072 bytes (672 MB) up to 2854223872 bytes (2722 MB)
+	JVM Flags: 0 total; 
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 3 mods loaded, 3 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UC	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	U	FML{7.10.99.99} [Forge Mod Loader] (forge-1.7.10-10.13.4.1558-1.7.10.jar) 
+	U	Forge{10.13.4.1558} [Minecraft Forge] (forge-1.7.10-10.13.4.1558-1.7.10.jar) 
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 430.64' Renderer: 'GeForce GTX 1050/PCIe/SSE2'
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: GeForce GTX 1050/PCIe/SSE2 GL version 4.6.0 NVIDIA 430.64, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: ~~ERROR~~ NullPointerException: null
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)
+[12:09:59] [Client thread/INFO] [STDOUT/FML]: [net.minecraft.client.Minecraft:func_71377_b:359]: #@!@# Game crashed! Crash report saved to: #@!@# C:\Users\tanou\AppData\Roaming\.Nugarium\crash-reports\crash-2019-10-31_12.09.59-client.txt

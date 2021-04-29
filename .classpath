@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="E:/openlauncherlib-2.1-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/s-update-3.1.0-BETA.jar"/>
+	<classpathentry kind="lib" path="E:/jar_files.zip"/>
+	<classpathentry kind="lib" path="E:/openauth-1.0.3-SNAPSHOT.jar"/>
+	<classpathentry kind="lib" path="E:/swinger-1.0.0-BETA.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/minecraft"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/openauth-1.0.3-SNAPSHOT"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

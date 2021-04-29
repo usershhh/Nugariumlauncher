@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Bootstrap/Bootstrap.iml" filepath="$PROJECT_DIR$/Bootstrap/Bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Loggout/Loggout.iml" filepath="$PROJECT_DIR$/Loggout/Loggout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Nugariumlauncher.iml" filepath="$PROJECT_DIR$/Nugariumlauncher.iml" />
+    </modules>
+  </component>
+</project>

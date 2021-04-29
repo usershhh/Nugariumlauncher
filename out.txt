@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Nugarium | Serveur PvPGuilds , Freebuild, Event ! </title>
+    <!-- Métadonnées -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="">
+    <meta name="msapplication-navbutton-color" content="">
+    <meta name="apple-mobile-web-app-statut-bar-style" content="">
+    <meta name="apple-mobile-web-app-capable" content="">
+    <meta property="og:title" content="Nugarium">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://nugarium.com">
+    <meta property="og:image" content="https://nugarium.com/favicon.ico">
+    <meta property="og:image:alt" content="Serveur PvPGuilds , Freebuild, Event !">
+    <meta property="og:description" content="Serveur PvPGuilds , Freebuild, Event !">
+    <meta property="og:site_name" content="Nugarium" />
+    <meta name="twitter:title" content="Nugarium">
+    <meta name="twitter:description" content="Serveur PvPGuilds , Freebuild, Event !">
+    <meta name="twitter:image" content="https://nugarium.com/favicon.ico">
+    <meta name="author" content="CraftMyWebsite, TheTueurCiTy, Amjido, Nugarium" />
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="theme/Nebulae/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="theme/Nebulae/assets/css/nebulae.css">
+    <!-- Javascript -->
+    <script src="theme/Nebulae/assets/js/ckeditor.js"></script>
+        <style type="text/css">.cc_overlay_lock{position:fixed;top:0;left:0;height:100%;width:100%;background:rgba(0,0,0,0.8);z-index:9999999999}.cc_overlay_lock.hidden{display:none}.cc_dialog{background-color:#f2f2f2;color:#111;z-index:99999999999;font-size:16px;padding:3rem}.cc_dialog.hidden{display:none}.cc_dialog.headline{right:0;top:0;bottom:auto;left:0;max-width:100%;position:relative}.cc_dialog.simple{right:0;top:auto;bottom:0;left:auto;max-width:50%;position:fixed}.cc_dialog.interstitial{right:3vw;top:3vh;left:3vw;max-width:100%;position:fixed}.cc_dialog.standalone{position:fixed;top:75%;left:0;height:25%;width:100%}.cc_dialog .cc_dialog_headline{font-size:24px;font-weight:600}.cc_dialog .cc_dialog_text{font-size:16px}.cc_dialog button{font-weight:bold;font-size:14px}.cc_dialog button.cc_b_ok{background-color:green;color:#fff}.cc_dialog button.cc_b_ok:active,.cc_dialog button.cc_b_ok:focus{background:#136d13}.cc_dialog button.cc_b_cp{background-color:#eaeaea;color:#111;margin-left:0.25rem !important}.cc_dialog button.cc_b_cp:active,.cc_dialog button.cc_b_cp:focus{background:#f2f2f2}.cookie-consent-preferences-overlay{width:100%;height:100%;position:fixed;background:rgba(0,0,0,0.5);z-index:999999999999;top:0;left:0;display:none}.cookie-consent-preferences-overlay.visible{display:block}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog{position:absolute;margin:30px auto;width:750px;max-width:90%;height:auto;left:0;right:0}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container{width:100%;display:flex;background:#fff;flex-direction:column}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container>div{width:100%}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head{background:#fff;color:#111;display:flex;flex-direction:row;justify-content:space-between}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title{display:flex;padding-left:15px;flex-direction:column;justify-content:center;align-items:baseline}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title h2,.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title p{margin:0}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title p{font-size:16px;line-height:1.5}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title h2{font-size:20px;font-weight:600}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_lang_selector{display:flex;align-items:center;padding-right:15px;min-height:80px;justify-content:center}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content{display:flex;flex-direction:row;align-items:stretch;background:#292929;color:#f5f5f5;border-bottom:none}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu{font-family:Arial, sans-serif !important;width:150px;margin:0;padding:0;background:#e6e6e6;min-width:150px}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu li{margin:0;padding:0;float:left;display:block;width:100%;color:#666;background:#e6e6e6;border-bottom:1px solid #ccc;border-right:1px solid #ccc;transition:all ease .1s;box-sizing:content-box}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu li[active=true]{background:#292929;color:#f5f5f5}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu li a{text-decoration:none;color:#666;display:block;padding:10px 5px 10px 10px;font-weight:700;font-size:12px;line-height:19px;position:relative}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_content{background:#292929 !important;color:#f5f5f5}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_content .cc_cp_m_content_entry{width:100%;display:none;padding:25px;box-sizing:border-box}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_content .cc_cp_m_content_entry[active=true]{display:block}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_content .cc_cp_m_content_entry h1{font-size:24px;font-weight:600}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_content .cc_cp_m_content_entry p{font-size:16px;line-height:1.5}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_footer{background:#f2f2f2;display:flex;flex-direction:row;align-items:center;border-top:1px solid #ccc;justify-content:space-between}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_footer .cc_cp_f_powered_by{padding:20px 10px;font-size:14px;color:#333;display:block !important}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_footer .cc_cp_f_powered_by a{color:#999}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_footer .cc_cp_f_save button{margin-right:10px;opacity:.9;transition:all ease .3s;font-size:14px;font-weight:bold;height:auto}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_footer .cc_cp_f_save button:hover{opacity:1}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent{position:absolute;margin:2px 0 0 16px;cursor:pointer}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent+label{position:relative;padding:4px 0 0 50px;line-height:2.0em;cursor:pointer;display:inline;font-size:14px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent+label:before{content:"";position:absolute;display:block;left:0;top:0;width:40px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent+label:after{content:"";position:absolute;display:block;left:0px;top:0px;width:24px;height:24px;border-radius:16px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent+label:hover:after{box-shadow:0 0 5px rgba(0,0,0,0.3)}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent:checked+label:after{margin-left:16px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent:checked+label:before{background:#55D069}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm{position:absolute;margin:5px 0 0 10px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm+label{position:relative;padding:0 0 0 32px;line-height:1.3em}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm+label:before{content:"";position:absolute;display:block;left:0;top:0;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s;width:25px;height:15px;border-radius:10px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm+label:after{content:"";position:absolute;display:block;left:0px;top:0px;background:#fff;border:1px solid #d9d9d9;-webkit-transition:all 0.3s;transition:all 0.3s;width:15px;height:15px;border-radius:10px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm+label:hover:after{box-shadow:0 0 3px rgba(0,0,0,0.3)}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm:checked+label:after{margin-left:10px}.cookie-consent-preferences-overlay input[type="checkbox"].checkbox_cookie_consent-sm:checked+label:before{background:#55D069}@media screen and (max-width: 600px){.cookie-consent-preferences-overlay{overflow-y:scroll}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head{flex-direction:column}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_title{align-items:center;padding:15px 0 0 0}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_head .cc_cp_head_lang_selector{padding:15px 0;min-height:20px}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content{flex-direction:column}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu{width:100%}.cookie-consent-preferences-overlay .cookie-consent-preferences-dialog .cc_cp_container .cc_cp_content .cc_cp_m_menu li{border-right:0}}.cc_dialog.ar{text-align:right}.cookie-consent-preferences-overlay.ar{text-align:right}
+    </style>
+</head>
+
+<body>
+    <!-- Jetons -->
+    <script type="text/javascript">
+        var _Jetons_ = "Jeton";
+
+    </script>
+    <div id="content">
+                <!-- Header -->
+<header class="signature-bg mb-4">
+     
+    <!-- Particules -->
+    <!-- <div id="particles-js"></div> -->
+        <!-- Disclaimer -->
+    <div class="card bg-primary text-white border-0">
+        <div class="card-body p-1 pb-0">
+            <div class="container">
+                <div class="clearfix">
+                    <div class="float-left">
+                        <p class="card-text"><i class="fas fa-map-pin"></i> Launcher : <a href="https://nugarium.com/resources/NugariumInstaller.exe" class="text-white" data-clipboard-text="<Launcher>; ?>" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<i class='fas fa-clipboard-list'></i> <u>Installer le Launcher</u>" target="_blank" >Télécharcher</a></p>
+                    </div>
+                    <div class="float-right">
+                        <p class="card-text"><i class="fas fa-signal"></i> Statut du serveur :
+                                                        <span class="badge badge-pill badge-danger">Hors-Ligne</span>
+                                                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <!-- Barre de Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Naviguer">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navigation">
+                                <ul class="navbar-nav mx-auto">
+                    
+                    <li class="nav-item active">
+                        <a href="https://nugarium.com/" class="nav-link">Accueil</a>
+                    </li>
+                                        <li class="nav-item dropdown">
+                        <a id="Listdefil1" class="nav-link dropdown-toggle" href="#" id="dropdown-tools" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Serveur</a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="Listdefil1">
+                            
+                            <a href="?page=chat" class="dropdown-item">Chat</a>
+
+                                                        
+                            <a href="?page=voter" class="dropdown-item">Voter</a>
+
+                                                        
+                        </div>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="?&page=boutique" class="nav-link">Boutique</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="?page=forum" class="nav-link">Forum</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="?&page=support" class="nav-link">Support</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a href="?&page=membres" class="nav-link">Liste des membres</a>
+                    </li>
+                                                                                <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <img class="rounded-circle" src="https://minotar.net/avatar/steve/18.png"> Compte
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#InscriptionSlide"><i class="fa fa-user-plus"></i> Inscription</a>
+                            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#ConnectionSlide"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+                        </div>
+                    </li>
+                                                        </ul>
+            </div>
+        </nav>
+        <!-- Mise en titre -->
+        <div class="pt-3 pb-4">
+                        <!-- Title & Slogan -->
+            <div class="text-center">
+                <h1 class="signature text-capitalize d-inline-block mx-auto">Nugarium</h1>
+                <h5 class="text-white">Serveur PvPGuilds , Freebuild, Event !</h5>
+            </div>
+                    </div>
+    </div>
+    <div style="height: 50px; overflow: hidden;">
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+            <path d="M0.00,49.98 C161.11,118.91 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: #FFF;"></path>
+        </svg>
+    </div>
+</header>
+        <section id="accueil">
+    <div class="container">
+        <!-- Disclaimer -->
+        <div class="hidden-xs" style="display:inline-block;">
+            <h4>Quel est le but de notre serveur ? <i class="fas fa-hat-wizard"></i></h4>
+            <hr style="width:20%;border:1px solid black;display:inline-block;margin-top:-5px;margin-left:auto;margin-right:auto;" />
+        </div>
+        <!-- Achète, ma merde ! -->
+        <div class="row mb-2 hidden-xs">
+            <div class="col-md-6">
+                <div class="card shadow-sm mb-2">
+                    <div class="card-body text-right" style="border-right:6px solid #1A1A1A;">
+                        <h5><i class="fas fa-shield-alt"></i> PvP Guilds</h5>
+                        <p>Nouvelle facon de faire du PvP ! Ce n'est pas du PvP Faction car les joueurs feront partie d'une Guild qui ajoutera des permissions supplémentaire amusant !</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm mb-2">
+                    <div class="card-body" style="border-left:6px solid #1A1A1A;">
+                        <h5><i class="fas fa-home"></i> Free Build</h5>
+                        <p>Un FreeBuild amusant pour jouer avec ses amis et se faire des défies de construction ultime !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-2 hidden-xs">
+            <div class="col-md-6">
+                <div class="card shadow-sm mb-2">
+                    <div class="card-body text-right" style="border-right:6px solid #1A1A1A;">
+                        <h5><i class="fas fa-globe-europe"></i> Visite Notre Galaxie</h5>
+                        <p>Visite notre Grande contré de planète ! attention à ne pas dérriver a vie dans l'espace infini de nugarium ...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card shadow-sm mb-2">
+                    <div class="card-body" style="border-left:6px solid #1A1A1A;">
+                        <h5><i class="fas fa-crown"></i> Tout ca en Modée</h5>
+                        <p>Et Oui ! Tu n'as pas révé notre serveur Nugarium est totalement modée et dans tout les mods de jeu ! des mods et des plugins aussi amusants que pratiques créés exeptionellement par notre équipe pour une meilleur expérience !</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="d-block bg-dark py-4 mb-4" style="background-image:url('theme/Nebulae/assets/img/random.png');backgrond-size:cover;background-position:center;">
+        <div class="container">
+            <!-- Disclaimer -->
+            <div style="display:inline-block;">
+                <h4 class="text-white" style="text-shadow: 1px 1px 2px black;">What's up ? <i class="fas fa-newspaper"></i></h4>
+                <hr style="width:20%;border:1px solid white;display:inline-block;margin-top:-5px;margin-left:auto;margin-right:auto;" />
+            </div>
+            <!-- News Articles -->
+            <div class="row">
+                                <div class="col-lg-4">
+                    <article class="card border-0 mb-4">
+                        <div class="card-header bg-primary text-white d-flex flex-nowrap">
+                            <h5 class="card-title mb-0">
+                                <!-- <small>#2  </small>-->Venez Nombreux !                             </h5>
+                            <p class="card-text mb-0 ml-auto">Publié le 29/03/2021</p>
+                        </div>
+                        <div class="card-body">
+                            <html><body><p>Nugarium ouvre sa station spatiale bientot donc venez nour rejoindre et grimper dans notre fusée pour Nugarium !</p></body></html>                        </div>
+                        <div class="card-footer align-middle d-flex">
+                            <p class="mb-0"><a href="?page=profil&profil=__Mr_Pancake__">__Mr_Pancake__</a> <i class="fas fa-feather-alt"></i></p>
+                            <div class="ml-auto">
+                                                                <a class="btn btn-sm btn-primary rounded" href="#" class="mr-3" data-toggle="modal" data-target="#news2"><i class="fas fa-comments"></i> (0)</a>
+                                <button class="btn btn-sm btn-primary rounded"><i class="fa fa-thumbs-up"></i> 1</button>
+                                                            </div>
+                        </div>
+                    </article>
+                </div>
+                                                                                                                                                                                            </div>
+                    </div>
+    </div>
+    <div class="container">
+        <!-- Disclaimer -->
+        <div style="display:inline-block;">
+            <h4>Quick Access <i class="fas fa-hat-wizard"></i></h4>
+            <hr style="width:20%;border:1px solid black;display:inline-block;margin-top:-5px;margin-left:auto;margin-right:auto;" />
+        </div>
+        <!-- Quick Acess -->
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border-0 rounded shadow-lg mb-4">
+                    <div class="card-body text-center">
+                        <h6>
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-shopping-basket fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </h6>
+                        <h5>Boutique</h5>
+                        <p>Achetez du contenu en jeu en sécurité et instantanément !</p>
+                        <a class="btn btn-outline-primary btn-sm rounded" href="?page=boutique">Visiter <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 rounded shadow-lg mb-4">
+                    <div class="card-body text-center">
+                        <h6>
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-vote-yea fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </h6>
+                        <h5>Voter</h5>
+                        <p>Augmentez le référencement du serveur pour gagner des récompenses !</p>
+                        <a class="btn btn-outline-primary btn-sm rounded" href="?page=voter">Visiter <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border-0 rounded shadow-lg mb-4">
+                    <div class="card-body text-center">
+                        <h6>
+                            <span class="fa-stack fa-2x">
+                                <i class="fas fa-circle fa-stack-2x"></i>
+                                <i class="fas fa-comments fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </h6>
+                        <h5>Forums</h5>
+                        <p>Échangez avec les autres joueurs dans une bonne ambiance !</p>
+                        <a class="btn btn-outline-primary btn-sm rounded" href="?page=forum">Visiter <i class="fas fa-angle-double-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </div>
+    
+<footer class="card signature-bg text-white border-0 mt-4">
+
+    <div style="height: 50px; overflow: hidden;">
+
+        <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;">
+
+            <path d="M0.00,49.98 C149.99,150.00 271.49,-49.98 500.00,49.98 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #FFF;"></path>
+
+        </svg>
+
+    </div>
+
+    <div class="card-body">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-12 col-sm-12 col-lg-7">
+
+                    <h4 class="card-title"><i class="fas fa-book"></i> À Propos</h4>
+
+                    <div class="about-content">
+
+                        Le serveur nugarium a été créé en début 2018 par notre fantasique équipe remplie de talents qui ont travaillés jours et nuits pour vous simplifiez l'aventure et pour la rendre plus jousissive sur un nouveau Minecraft ! Alors ... ne dériver pas dans l'espace infiniment ! Et venir conquérire le système de nugarium une fois pour de bon ! Tout en vous amusant biensur !
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 col-sm-12 col-lg-5 ml-auto text-right">
+
+                    
+                    <h4 class="card-title"><i class="fas fa-meteor"></i> Réseaux</h4>
+
+                    
+                    <a class="text-white" href="https://discord.gg/P8vTqNg6hd" data-toggle="tooltip" data-placement="top" title="Rejoignez-nous sur Discord !">
+
+                        <i class='fab fa-discord'></i>
+                    </a>&nbsp;
+
+                    
+                    <a class="text-white" href="https://www.youtube.com/channel/UCCKQYzYKHxW2_534K0UceTQ" data-toggle="tooltip" data-placement="top" title="Rejoignez-nous sur Youtube !">
+
+                        <i class='fab fa-youtube'></i>
+                    </a>&nbsp;
+
+                    
+                    
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="card-footer bg-primary border-0">
+
+        <div class="container">
+
+            <div class="clearfix">
+
+                <div class="float-left">
+
+                    &copy; 2021 - Tous droits réservés, <span class="signature">Nugarium</span><br />
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    </div>
+
+</footer>
+
+<!-- Inscription -->
+
+<div class="modal fade" id="InscriptionSlide" tabindex="-1" role="dialog" aria-labelledby="InscriptionSlide" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content border-0">
+            <form role="form" method="post" action="?&action=inscription">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-white"><i class="fas fa-user-plus"></i> Inscription</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: white;">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body pt-3">
+
+                    <div class="text-right">
+                        <small>Les champs obligatoires sont précédés par une étoile <span class="text-danger">*</span></small>
+                    </div>
+
+                    <div class="form-row py-1">
+                        <div class="col-md-6">
+                            <label for="PseudoInscriptionForm"> Pseudo <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </span>
+                                <input type="text" name="pseudo" class="form-control custom-text-input" id="PseudoInscriptionForm" placeholder="Entrez votre pseudo" required autofocus>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <label for="EmailInscriptionForm"> Email <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                </span>
+                                <input type="text" name="email" class="form-control custom-text-input" id="EmailInscriptionForm" placeholder="Entrez votre mail" required>
+                            </div>
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="show_email" name="show_email">
+                                <label class="custom-control-label" for="show_email">Rendre votre adresse email publique</label>
+                            </div>
+
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="souvenir" name="souvenir">
+                                <label class="custom-control-label" for="souvenir">S'inscrire à la newsletter</label>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-row py-1">
+
+                        <div class="col-md-6">
+                            <label for="MdpInscriptionForm"> Mot de passe <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fas fa-key"></i>
+                                    </div>
+                                </span>
+                                <input type="password" name="mdp" class="form-control custom-text-input" id="MdpInscriptionForm" placeholder="Entrez votre mot de passe" onKeyUp="securPass();" required>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <label for="MdpConfirmInscriptionForm"> Confirmation du mot de passe <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fas fa-key"></i>
+                                    </div>
+                                </span>
+                                <input type="password" name="mdpConfirm" class="form-control custom-text-input" id="MdpConfirmInscriptionForm" placeholder="Entrez votre mot de passe" onKeyUp="securPass();" required>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12 mt-3">
+                            <div class="d-none" id="progress">
+                                <div class="progress">
+                                    <div class="progress-bar" id="progressbar" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12">
+                                <p id="correspondance"></p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row py-1">
+
+                        <div class="col-md-12">
+                            <label for="MdpageForm"> Âge (<small>0 pour cacher</small>) </label>
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                </span>
+                                <input type="number" name="age" class="form-control custom-text-input" id="MdpageForm" placeholder="Entrez votre Âge" value="0" min="0" max="999">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row py-2">
+
+                        <div class="col-md-12">
+                            <label for="CAPTCHA">Captcha <span class="text-danger">*</span></label>
+                        </div>
+                        <div class="col-md-6 text-center">
+                            <img id="captcha" src="include/purecaptcha/purecaptcha_img.php?t=login_form" class="mx-auto mb-2" /><br>
+                            <button type="button" onclick='var t=document.getElementById("captcha"); t.src=t.src+"&amp;"+Math.random();' class="btn btn-primary btn-sm rounded">
+                                <i class="fas fa-sync"></i> Recharger le captcha
+                            </button>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="input-group">
+                                <span class="input-group-prepend">
+                                    <div class="input-group-text bg-main border-0">
+                                        <i class="fas fa-file-image"></i>
+                                    </div>
+                                </span>
+                                <input type='text' name='CAPTCHA' class="form-control custom-text-input" id="captcha" placeholder="Recopiez le captcha">
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-block" id="InscriptionBtn"><i class="fas fa-user-circle"></i> S'inscrire</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Connexion -->
+
+<div class="modal fade" id="ConnectionSlide" tabindex="-1" role="dialog" aria-labelledby="ConnectionSlide" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content border-0">
+            <form class="form-signin" role="form" method="post" action="?&action=connection">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-white"><i class="fas fa-sign-in-alt"></i> Connexion</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: white;">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <div class="form-group">
+                        <label for="PseudoConectionForm"> Pseudo </label>
+                        <div class="input-group">
+                            <span class="input-group-prepend">
+                                <div class="input-group-text bg-main border-0">
+                                    <i class="fa fa-user"></i>
+                                </div>
+                            </span>
+                            <input type="text" name="pseudo" class="form-control custom-text-input" id="PseudoConectionForm" placeholder="Pseudo" required autofocus>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="MdpConnectionForm"> Mot de passe </label>
+                        <div class="input-group">
+                            <span class="input-group-prepend">
+                                <div class="input-group-text bg-main border-0">
+                                    <i class="fa fa-key"></i>
+                                </div>
+                            </span>
+                            <input type="password" name="mdp" class="form-control custom-text-input" id="MdpConnectionForm" placeholder="Votre mot de passe" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="reconnexion" name="reconnexion">
+                                <label class="custom-control-label" for="reconnexion">Se souvenir de moi</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <a href="#" data-target="#passRecover" data-toggle="modal" class="float-right" data-dismiss="modal">Mot de passe oublié ?</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-key"></i> Se connecter</button>
+                </div>
+
+            </form>
+
+        </div>
+    </div>
+</div>
+
+
+<!-- Mot de passe oublié -->
+
+<div class="modal fade" id="passRecover" tabindex="-1" role="dialog" aria-labelledby="passRecover" aria-hidden="true" style="padding-right: 16px;">
+    <div class="modal-dialog">
+        <div class="modal-content border-0">
+            <form role="form" method="post" action="?&action=passRecover">
+                <div class="modal-header bg-primary">
+                    <h5 class="modal-title text-white"><i class="fas fa-compass"></i> Mot de passe oublié</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" style="color: white;">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body pt-3">
+                    <label for="EmailRecoverForm"> Votre adresse e-mail :</label>
+                    <div class="input-group">
+                        <span class="input-group-prepend">
+                            <div class="input-group-text border-0">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                        </span>
+                        <input type="email" name="email" class="form-control custom-text-input" id="EmailRecoverForm" placeholder="Adresse e-mail" required autofocus>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-block"><i class="fas fa-paper-plane"></i> Renvoyer mon mot de passe</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<!-- Système de news -->
+
+
+<!-- Espace commentaire -->
+
+<div class="modal fade" id="news2" tabindex="-1" role="dialog" aria-labelledby="news2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content border-0">
+            <div class="modal-header bg-primary">
+                <h5 class="modal-title text-white"><i class="fas fa-comments"></i> Commentaires</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true" style="color: white;">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <br>
+                            </div>
+                        <div class="modal-footer text-center">
+                <div class="alert alert-danger">Veuillez-vous connecter pour pouvoir écrire un commentaire.</div>
+                <a data-toggle="modal" data-target="#ConnectionSlide" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Connexion</a>
+            </div>
+                    </div>
+    </div>
+</div>
+
+
+<!-- Edition d'un commentaire -->
+
+
+
+
+<div id="modal-image" class="img-modal">
+    <div class="modal-img-close" onclick="this.parentElement.style.display='none';"><i class="fas fa-times"></i></div>
+    <img class="modal-img-content" id="modal-image-src" />
+</div>
+    <!-- Retour en haut -->
+    <div id="divScroll" class="btn btn-primary btn-sm" onclick="goToTop()"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+    <!-- Javascript  -->
+    <script src="theme/Nebulae/assets/js/jquery.min.js"></script>
+    <script src="theme/Nebulae/assets/js/popper.min.js"></script>
+    <script src="theme/Nebulae/assets/js/bootstrap.min.js"></script>
+    <script src="theme/Nebulae/assets/js/clipboard.min.js"></script>
+    <script src="theme/Nebulae/assets/js/particles.min.js"></script>
+    <script src="theme/Nebulae/assets/js/particles_settings.js"></script>
+    <!-- Cookie Consent by https://www.CookieConsent.com -->
+    <script type="text/javascript" src="//www.cookieconsent.com/releases/3.1.0/cookie-consent.js"></script>
+    <script type="text/javascript">
+      document.addEventListener('DOMContentLoaded', function () {
+        cookieconsent.run({"notice_banner_type":"simple","consent_type":"express","palette":"dark","language":"fr","cookies_policy_url":"https://nugarium.com/legacy","website_name":"Nugarium"});
+      });
+    </script>
+    <noscript>ePrivacy and GPDR Cookie Consent by <a href="https://www.CookieConsent.com/" rel="nofollow noopener">Cookie Consent</a></noscript>
+    <!-- End Cookie Consent by https://www.CookieConsent.com -->
+    <script src="theme/Nebulae/assets/js/zxcvbn.js"></script>
+    <script src="theme/Nebulae/assets/js/custom.js"></script>
+    <script>
+var CK = {};
+initCK();
+function initCK() {
+	CK = new Map();
+	for (let el of document.querySelectorAll("[data-UUID]" )) {
+		ClassicEditor.create(el, {
+				
+				toolbar: {
+					items: [
+						'viewSource',
+						'heading',
+						'|',
+						'fontBackgroundColor',
+						'fontFamily',
+						'fontSize',
+						'fontColor',
+						'highlight',
+						'|',
+						'bold',
+						'underline',
+						'italic',
+						'horizontalLine',
+						'|',
+						'link',
+						'bulletedList',
+						'todoList',
+						'numberedList',
+						'|',
+												'blockQuote',
+						'mediaEmbed',
+						'undo',
+						'redo'
+					]
+				},
+				language: 'fr',
+				image: {
+					toolbar: [
+						'imageTextAlternative',
+						'imageStyle:full',
+						'imageStyle:side'
+					]
+				},
+				licenseKey: '',
+				simpleUpload: {
+					uploadUrl: 'index.php?action=uploadCKImg',
+					withCredentials: false,
+					headers: {
+						'X-CSRF-TOKEN': 'CSFR-Token',
+						Authorization: ''
+					}
+				}
+				
+			} )
+		.catch( error => {console.log( error );} )
+		.then(editor => { 
+			CK.set(el, editor); 
+			if(isset(el.innerText) && el.innerText.replace(" ", "") != "") {
+				editor.setData(el.innerText);
+			}
+		});
+		
+	}
+}
+
+function isset(obj) {
+    return typeof obj !== 'undefined' && obj !== null;
+}
+
+function addBlockQuote(ck,ht, auteur) {
+	CK.get(document.getElementById(ck)).setData("<blockquote>"+auteur+",<br/>"+document.getElementById(ht).innerHTML+"</blockquote><br/>>>"+CK.get(document.getElementById(ck)).getData());
+}
+
+
+//fix ck link dans les modals
+$( "modal" ).each(function() {
+	$( this ).modal( {
+		focus: false,
+		show: false
+	});
+});
+</script>    <script src="theme/Nebulae/assets//js/toastr.min.js"></script>
+    <script>
+    
+    toastr.options = {
+        "closeButton"   : true,
+        "debug"         : true,
+        "newestOnTop"      : false,
+        "progressBar"      : false,
+        "positionClass"    : "toast-top-right",
+        "preventDuplicates": false,
+        "onclick"          : null,
+        "showDuration"     : "500",
+        "hideDuration"     : "500",
+        "timeOut"          : "5000",
+        "extendedTimeOut"  : "1000",
+        "showEasing"       : "swing",
+        "hideEasing"       : "linear",
+        "showMethod"       : "fadeIn",
+        "hideMethod"       : "fadeOut"
+    }
+    function notif(type,message, header)
+    {
+         toastr[type](message, header);
+    }
+
+    function notif2(header, message, type) {
+        toastr[type](message, header);
+    }
+
+    $('#NomForum').on('show.bs.modal', function(event) {
+        var button = $(event.relatedTarget);
+        var ancienNom = button.data('nom');
+        var icone = button.data('icone');
+        var id = button.data('id');
+        var entite = button.data('entite');
+        var modal = $(this)
+        modal.find('.modal-body #nom').val(ancienNom);
+        modal.find('.modal-body #icone').val(icone);
+        modal.find('.modal-body #id').val(id);
+        modal.find('.modal-body #entite').val(entite);
+    });
+
+    //Other
+
+    
+        function copierIP() {
+            var copyText = document.getElementById("iptexte");
+            copyText.select();
+            document.execCommand("copy");
+            notif("success", "Vous avez copié l\'adresse IP du serveur !");
+        }
+
+    
+    //Scripts de page
+
+    
+    //Notifications
+
+    
+
+    
+    
+    
+    
+    
+    </script>
+        <script>
+        new ClipboardJS('a');
+
+    </script>
+</body>
+
+</html>
