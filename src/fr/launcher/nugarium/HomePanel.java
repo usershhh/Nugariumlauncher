@@ -1,5 +1,6 @@
 package fr.launcher.nugarium;
 
+import fr.launcher.nugarium.ddb.ddb;
 import fr.launcher.nugarium.options.ram.RamSelector;
 import fr.theshark34.openlauncherlib.util.CrashReporter;
 import fr.theshark34.openlauncherlib.util.Saver;
@@ -217,11 +218,11 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         player_guild.setFont(player_guild.getFont().deriveFont(23f));
 
 
-       /* raison = new JLabel(ddb.raison);
+        raison = new JLabel(ddb.raison);
         raison.setBounds(600, 200, 800, 400);
         raison.setForeground(new Color(231, 231, 231));
         raison.setFont(customFont);
-        raison.setFont(raison.getFont().deriveFont(40f));*/
+        raison.setFont(raison.getFont().deriveFont(40f));
 
 
 
@@ -250,14 +251,14 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         this.add(player_guild);
 
 
-        /*if (ddb.q != false){
+        if (ddb.q != false){
             if(ddb.statue.contains("off")){
                 remove(playButton);
                 remove(ramButton);
                 add(raison);
                 repaint();
             }
-        }*/
+        }
 
 
 
@@ -311,6 +312,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
 
         if(e.getSource() == playButton) {
 
+
             remove(playButton);
             remove(ramButton);
             remove(disconnectButton);
@@ -320,6 +322,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
                 @Override
                 public void run() {
                     try {
+
 
                         if (saver.get("token") != null)
                         {

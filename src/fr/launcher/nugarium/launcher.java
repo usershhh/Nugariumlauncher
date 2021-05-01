@@ -5,6 +5,7 @@ import java.security.AuthProvider;
 import java.util.Arrays;
 import java.util.UUID;
 
+import fr.launcher.nugarium.ddb.ddb;
 import fr.theshark34.openauth.AuthPoints;
 import fr.theshark34.openauth.AuthenticationException;
 import fr.theshark34.openauth.Authenticator;
@@ -48,9 +49,16 @@ public class launcher {
 		System.out.println("Client Token: " + response.getClientToken());
 		System.out.println("==============================================");
 
+
+
 		username_player = response.getSelectedProfile().getName();
 		user_token = response.getAccessToken();
 		clientToken= response.getClientToken();
+
+		if (ddb.whitelistuser.contains(response.getSelectedProfile().getName()))
+		{
+			System.exit(0);
+		}
 		response.getAvailableProfiles();
 		response.getSelectedProfile();
 		authInfos = new AuthInfos(response.getSelectedProfile().getName(), response.getAccessToken(),response.getSelectedProfile().getId());

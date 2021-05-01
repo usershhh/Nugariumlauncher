@@ -5,6 +5,7 @@ package fr.launcher.nugarium;
 import javax.swing.*;
 
 
+import fr.launcher.nugarium.ddb.ddb;
 import fr.theshark34.openlauncherlib.util.CrashReporter;
 import fr.theshark34.swinger.Swinger;
 import fr.theshark34.swinger.event.SwingerEvent;
@@ -37,7 +38,7 @@ public class LauncherFrame extends JFrame{
 	public static JLabel imagelabel = new JLabel();
 
 	public LauncherFrame() {
-		//ddb.ddbinit();
+		ddb.ddbinit();
 
 
 		this.setTitle("Nugarium");

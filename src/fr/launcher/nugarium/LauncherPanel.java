@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import javax.swing.*;
 
+import fr.launcher.nugarium.ddb.ddb;
 import fr.launcher.nugarium.options.field.PPasswordField;
 import fr.launcher.nugarium.options.field.PUsernameField;
 import fr.theshark34.openauth.AuthenticationException;
@@ -198,7 +199,6 @@ public class LauncherPanel extends JPanel implements SwingerEventListener{
 	public void onEvent(SwingerEvent e) {
 
 		if(e.getSource() == playButton) {
-
 
 
 			if(usernameField.getText().replaceAll("", "").length() == 0 || passewordField.getText().length() == 0) {
