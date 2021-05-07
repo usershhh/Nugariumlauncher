@@ -399,7 +399,6 @@ public class HomePanel extends JPanel implements SwingerEventListener {
 
                 if (e.getSource() == ramButton) {
 
-                    System.out.println("\"C:\\Program Files (x86)\\Nugarium\\runtime\\java" + "\\bin\\java\"");
                     if (statue == true) {
                         statue = false;
                     } else {
