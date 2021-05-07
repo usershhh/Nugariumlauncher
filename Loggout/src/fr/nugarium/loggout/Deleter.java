@@ -5,6 +5,7 @@ import fr.theshark34.openlauncherlib.minecraft.GameTweak;
 import fr.theshark34.openlauncherlib.minecraft.GameType;
 import fr.theshark34.openlauncherlib.minecraft.GameVersion;
 import java.io.File;
+import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 
@@ -23,5 +24,18 @@ public class Deleter {
 
         File properties = new File(SC_DIR, "launcher.properties");
         properties.delete();
+
+        try {
+            TimeUnit.SECONDS.sleep(1);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+
+        ProcessBuilder builder = new ProcessBuilder("C:\\Program Files (x86)\\Nugarium\\Nugarium.exe");
+        try {
+            Process process = builder.start();
+        } catch (IOException ex) {
+            ex.printStackTrace();
+        }
     }
 }

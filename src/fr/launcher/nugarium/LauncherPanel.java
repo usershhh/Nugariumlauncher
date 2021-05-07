@@ -222,7 +222,10 @@ public class LauncherPanel extends JPanel implements SwingerEventListener{
 						saver.set("clientToken", launcher.clientToken);
 						saver.set("username", LauncherPanel.usernameField.getText());
 						saver.set("username_player", launcher.username_player);
+						saver.set("id", launcher.ID);
 						saver.set("!WARNING!", "/!Merci de ne JAMAIS diffuser ce fichier!/");
+
+						ddb base = new ddb();
 
 						HomeFrame.instance2 = new HomeFrame(ramSelector);
 						HomeFrame.instance2.setVisible(true);
@@ -230,6 +233,8 @@ public class LauncherPanel extends JPanel implements SwingerEventListener{
 						LauncherFrame.instance.setVisible(false);
 						TimeUnit.MILLISECONDS.sleep(5);
 						SwingUtilities.updateComponentTreeUI(HomeFrame.homePanel);
+
+
 					}
 					catch(AuthenticationException e) {
 						JOptionPane.showMessageDialog(LauncherPanel.this, "Erreur ,impossible de se connecter : " + e.getErrorModel().getErrorMessage(), "Erreur" , JOptionPane.ERROR_MESSAGE);
@@ -239,6 +244,8 @@ public class LauncherPanel extends JPanel implements SwingerEventListener{
 					} catch (InterruptedException ex) {
 						ex.printStackTrace();
 					}
+
+
 
 				}
 

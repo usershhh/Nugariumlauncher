@@ -2,14 +2,24 @@
   <artifact type="jar" name="Nugariumlauncher:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Nugariumlauncher_jar</output-path>
     <root id="archive" name="Nugariumlauncher.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="Bootstrap" />
+      <element id="module-output" name="Loggout" />
       <element id="module-output" name="Nugariumlauncher" />
       <element id="extracted-dir" path="$PROJECT_DIR$/classes/artifacts/launcher_jar/launcher.jar" path-in-jar="/" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../openauth-1.0.3-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../openlauncherlib-2.1.1-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../gson-2.8.2.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../openlauncherlib-3.0.5.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../s-update-3.1.0-BETA.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$PROJECT_DIR$/../swinger-1.0.0-BETA.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../openauth-1.0.3-SNAPSHOT.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../mysql-connector-java-8.0.15.jar" path-in-jar="/" />
       <element id="library" level="project" name="launcher" />
       <element id="library" level="project" name="openauth-1.0.3-SNAPSHOT" />
+      <element id="library" level="project" name="gson-2.8.2" />
+      <element id="library" level="project" name="mysql-connector-java-8.0.15" />
     </root>
   </artifact>
 </component>

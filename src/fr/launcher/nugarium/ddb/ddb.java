@@ -1,64 +1,107 @@
 package fr.launcher.nugarium.ddb;
 
-import com.sun.jmx.snmp.agent.SnmpUserDataFactory;
 
+import com.sun.org.apache.xml.internal.security.keys.content.keyvalues.RSAKeyValue;
+import fr.launcher.nugarium.HomePanel;
+import fr.launcher.nugarium.LauncherPanel;
+import fr.launcher.nugarium.launcher;
+
+import java.io.IOException;
 import java.sql.*;
 import java.util.ArrayList;
 
 public class ddb {
 
-    public static String statue;
+    public static JsonDDB json;
+    public static String perm;
     public static String raison;
-    public static ArrayList whitelistuser = new ArrayList();
+    public static String statue;
     public static boolean q = false;
+    public static ArrayList<String> wluser = new ArrayList<String>();
+
+
+    public static Connection connection;
+
 
     public ddb() {
-    }
-
-    public static void ddbinit(){
-        System.out.println("Chargement de la base de donné ...");
-
         try {
-            // Charger le driver mysql
-            Class.forName("org.mariadb.jdbc.Driver");
-            System.out.println("Driver charger avec succès");
+            json = new JsonDDB();
+            json.JsonReader();
+            setupConnexion();
 
-            //crée la connection
-            Connection cnx = DriverManager.getConnection("jdbc:mariadb://138.201.221.81:25642/launcher", "admin", "shghsjSJGJ859");
-            System.out.println("Connection a la base de donné réussi");
-            q = true;
-
-
-            //état de connection
-            Statement st  = cnx.createStatement();
-
-            //créer une requet de selection
-            ResultSet resmaint = st.executeQuery("select * from maintenance");
-            ResultSet reswl = st.executeQuery("select * from whitelistuser");
-
-
-
-            //parcours des données
-            while(resmaint.next()){
-                statue = resmaint.getString(1);
-                raison = resmaint.getString(2);
-                System.out.println("Statue : " + statue + " Raison : " + raison);
-            }
-
-            while(reswl.next()){
-                whitelistuser.add(reswl.getString("pseudo"));
-                System.out.println(reswl.getString("pseudo"));
-
-            }
-
-
-
-        }catch (Exception e){
-            System.out.println("Une erreur est survenue");
+        } catch (IOException e) {
             e.printStackTrace();
         }
+    }
 
+    public static void setupConnexion() {
+        try {
+
+            //Charger le driver mysql
+            Class.forName("com.mysql.cj.jdbc.Driver");
+
+            //crée la connection
+            String url = "jdbc:mysql://" + json.data.getHost() + ":3306" + '/' + json.data.getDdbname();
+            connection = DriverManager.getConnection(url, json.data.getUsername(), json.data.getPassword());
+            System.out.println("Connecté à la base de données !");
+            q = true;
+
+            //Crée un état de connection
+            Statement st = connection.createStatement();
+
+            //Crée une requete
+
+            //Si le token n'est pas null sa
+
+            ResultSet res_maintenance = st.executeQuery("SELECT * FROM maintenance");
+
+            while (res_maintenance.next()) {
+                raison = res_maintenance.getString("raison");
+                statue = res_maintenance.getString("statue");
+            }
+
+            ResultSet res_wluser = st.executeQuery("SELECT * FROM whitelistuser");
+
+            while (res_wluser.next()) {
+                wluser.add(res_wluser.getString(1));
+            }
+
+
+
+            if (LauncherPanel.saver.get("token") != null) {
+
+                ResultSet res = st.executeQuery("SELECT parent FROM `permissions_inheritance` WHERE child LIKE '%" + LauncherPanel.saver.get("id") + "%'");
+
+
+                while (res.next()) {
+                    perm = res.getString("parent") + ".png";
+                }
+
+                //Sinon prendre l'id de quand on se connecte
+            } else {
+                ResultSet res = st.executeQuery("SELECT parent FROM `permissions_inheritance` WHERE child LIKE '%" + launcher.ID + "%'");
+                while (res.next()) {
+                    perm = res.getString("parent") + ".png";
+                }
+            }
+
+            if (perm == null)
+            {
+                perm = "Spationaute" + ".png";
+            }
+            else if (perm.contains("default")){
+                perm = "Spationaute" + ".png";
+            }
+
+            System.out.println(perm);
+
+        } catch (SQLException | ClassNotFoundException e) {
+
+            System.out.println("Impossible de se connecter à MYSQL");
+            System.out.println(e.getMessage());
+        }
 
     }
+
 
 }

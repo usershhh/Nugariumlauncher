@@ -1,5 +1,6 @@
 package fr.launcher.nugarium;
 
+import java.awt.*;
 import java.io.File;
 import java.security.AuthProvider;
 import java.util.Arrays;
@@ -23,6 +24,9 @@ import fr.theshark34.supdate.BarAPI;
 import fr.theshark34.supdate.SUpdate;
 import fr.theshark34.supdate.application.integrated.FileDeleter;
 import fr.theshark34.swinger.Swinger;
+import org.omg.CORBA.TRANSACTION_MODE;
+
+import javax.swing.*;
 
 public class launcher {
 
@@ -32,12 +36,17 @@ public class launcher {
 	public static final File SC_DIR = SC_INFOS.getGameDir();
 	public static final File SC_CRASHES_DIR = new File(SC_DIR, "crashes");
 
-
+	public static HomePanel homePanel = new HomePanel();
 	public static AuthInfos authInfos;
 	public static String username_player;
 	public static String clientToken;
 	public static String user_token;
 	public static Thread updateThread;
+	public static launcher instance = new launcher();
+	public static boolean wluser;
+
+	public static String ID;
+
 
 	public static void auth(String username , String password) throws AuthenticationException{
 		Authenticator authenticator = new Authenticator(Authenticator.MOJANG_AUTH_URL , AuthPoints.NORMAL_AUTH_POINTS);
@@ -49,16 +58,22 @@ public class launcher {
 		System.out.println("Client Token: " + response.getClientToken());
 		System.out.println("==============================================");
 
+		String s1 = response.getSelectedProfile().getId().substring(0, 8);
+		String s2 = response.getSelectedProfile().getId().substring(8, 12);
+		String s3 = response.getSelectedProfile().getId().substring(12, 16);
+		String s4 = response.getSelectedProfile().getId().substring(16, 20);
+		String s5 = response.getSelectedProfile().getId().substring(20, 32);
+		String s6 = "-";
 
+		ID = s1 + s6 + s2 + s6 + s3 + s6 + s4 + s6 + s5;
+
+		System.out.println(ID);
 
 		username_player = response.getSelectedProfile().getName();
 		user_token = response.getAccessToken();
 		clientToken= response.getClientToken();
 
-		if (ddb.whitelistuser.contains(response.getSelectedProfile().getName()))
-		{
-			System.exit(0);
-		}
+
 		response.getAvailableProfiles();
 		response.getSelectedProfile();
 		authInfos = new AuthInfos(response.getSelectedProfile().getName(), response.getAccessToken(),response.getSelectedProfile().getId());
@@ -74,6 +89,8 @@ public class launcher {
 
 		HomePanel.saver.set("token",refreshInfos.getAccessToken());
 		HomePanel.saver.set("clientToken", refreshInfos.getClientToken());
+
+		ID = refreshInfos.getSelectedProfile().getId();
 	}
 	public static int val;
 	public static int max;
@@ -143,6 +160,10 @@ public class launcher {
 	public static void interruptThread() {
 		updateThread.interrupt();
 
+	}
+
+	public static launcher getInstance() {
+		return instance;
 	}
 
 

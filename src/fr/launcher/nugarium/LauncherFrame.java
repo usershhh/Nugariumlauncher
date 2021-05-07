@@ -38,7 +38,12 @@ public class LauncherFrame extends JFrame{
 	public static JLabel imagelabel = new JLabel();
 
 	public LauncherFrame() {
-		ddb.ddbinit();
+
+		if (HomePanel.saver.get("token") != null)
+		{
+			ddb base = new ddb();
+		}
+
 
 
 		this.setTitle("Nugarium");
@@ -69,13 +74,12 @@ public class LauncherFrame extends JFrame{
 	}
 	public static void main(String[] args) {
 
-
-
 		Swinger.setSystemLookNFeel();
 		Swinger.setResourcePath("/fr/launcher/nugarium/resources/");
 		launcher.SC_CRASHES_DIR.mkdir();
 		crashReporter = new CrashReporter("Launcher Survie", launcher.SC_CRASHES_DIR);
 		instance = new LauncherFrame();
+
 
 		if (HomePanel.saver.get("token") != null)
 		{
@@ -109,7 +113,6 @@ public class LauncherFrame extends JFrame{
 				e.printStackTrace();
 			}
 			SwingUtilities.updateComponentTreeUI(HomeFrame.homePanel);
-
 
 		}
 

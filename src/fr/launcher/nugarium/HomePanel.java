@@ -10,6 +10,7 @@ import fr.theshark34.swinger.event.SwingerEvent;
 import fr.theshark34.swinger.event.SwingerEventListener;
 import fr.theshark34.openlauncherlib.LaunchException;
 import fr.theshark34.swinger.textured.STexturedButton;
+import sun.misc.Launcher;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -24,14 +25,11 @@ import java.net.*;
 import java.util.Arrays;
 import java.util.concurrent.TimeUnit;
 
-import static fr.launcher.nugarium.launcher.authToken;
-import static fr.launcher.nugarium.launcher.val;
+import static fr.launcher.nugarium.launcher.*;
 
 @SuppressWarnings("serrial")
-public class HomePanel extends JPanel implements SwingerEventListener, ActionListener {
+public class HomePanel extends JPanel implements SwingerEventListener {
 
-    Timer tm = new Timer(1, this);
-    public static int x = 1280, velx = 15;
 
 
     public static Saver saver = new Saver(new File(launcher.SC_DIR, "launcher.properties"));
@@ -50,29 +48,26 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
 
 
 
+
     public static RamSelector ramSelector = new RamSelector(new File(launcher.SC_DIR, "ram.txt"));
 
     public STexturedButton quitButton = new STexturedButton(Swinger.getResource("quit.png"));
     public STexturedButton radusbutton = new STexturedButton(Swinger.getResource("iconised.png"));
-    private STexturedButton ramButton = new STexturedButton(Swinger.getResource("settings_button.png"));
+    public STexturedButton ramButton = new STexturedButton(Swinger.getResource("settings_button.png"));
     public STexturedButton playButton = new STexturedButton(Swinger.getResource("play_button.png"));
     public STexturedButton disconnectButton = new STexturedButton(Swinger.getResource("exit.png"));
 
 
-    public SColoredBar progresseBar = new SColoredBar(new Color (43, 142 , 188, 80));
+    public SColoredBar progresseBar = new SColoredBar(new Color(43, 142, 188, 80));
     public JLabel infolabel = new JLabel("", SwingConstants.CENTER);
-    public static JLabel s, etat_lobby, etat_freebuild, etat_guild, player_lobby, player_freebuild, player_guild, template1, slash1, template2, slash2, template3, slash3, raison;
+    public static JLabel s, etat_lobby, etat_freebuild, etat_guild, player_lobby, player_freebuild, player_guild, template1, slash1, template2, slash2, template3, slash3, raison, wlraison;
 
 
     private static String keyWordTolookFor = "average";
 
     public static boolean statue = false;
     public static boolean statue2 = true;
-
-
-
-
-
+    public static HomePanel instance = new HomePanel();
 
 
     public HomePanel() {
@@ -103,19 +98,19 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         this.disconnectButton.setSize(46, 46);
         this.disconnectButton.addEventListener(this);
 
-        this.ramButton.setBounds(229,745);
+        this.ramButton.setBounds(229, 745);
         this.ramButton.setSize(50, 50);
         this.ramButton.addEventListener(this);
 
-        this.radusbutton.setBounds(1255,0);
+        this.radusbutton.setBounds(1255, 0);
         this.radusbutton.setSize(15, 15);
         this.radusbutton.addEventListener(this);
 
-        this.quitButton.setBounds(1280,0);
+        this.quitButton.setBounds(1280, 0);
         this.quitButton.setSize(15, 15);
         this.quitButton.addEventListener(this);
 
-        this.progresseBar.setBounds(316 ,830, 1300, 30);
+        this.progresseBar.setBounds(316, 830, 1300, 30);
 
 
         //USERNAME
@@ -128,7 +123,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
 
         if (Ping.lobby == true) {
             etat_lobby = new JLabel("Online");
-        }else{
+        } else {
             etat_lobby = new JLabel("Offline");
         }
         etat_lobby.setBounds(41, 295, 290, 45);
@@ -138,7 +133,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
 
         if (Ping.freebuild == true) {
             etat_freebuild = new JLabel("Online");
-        }else{
+        } else {
             etat_freebuild = new JLabel("Offline");
         }
         etat_freebuild.setBounds(41, 390, 290, 45);
@@ -148,7 +143,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
 
         if (Ping.guild == true) {
             etat_guild = new JLabel("Online");
-        }else{
+        } else {
             etat_guild = new JLabel("Offline");
         }
         etat_guild.setBounds(41, 483, 290, 45);
@@ -167,9 +162,9 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         slash1.setForeground(Color.white);
         slash1.setFont(customFont);
         slash1.setFont(s.getFont().deriveFont(23f));
-        if (String.valueOf(Ping.lobby_player) != null){
+        if (String.valueOf(Ping.lobby_player) != null) {
             player_lobby = new JLabel(String.valueOf(Ping.lobby_player));
-        }else{
+        } else {
             player_lobby = new JLabel("0");
         }
         player_lobby.setBounds(214, 295, 290, 45);
@@ -187,9 +182,9 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         slash2.setForeground(Color.white);
         slash2.setFont(customFont);
         slash2.setFont(s.getFont().deriveFont(23f));
-        if (String.valueOf(Ping.freebuild_player) != null){
+        if (String.valueOf(Ping.freebuild_player) != null) {
             player_freebuild = new JLabel(String.valueOf(Ping.freebuild_player));
-        }else{
+        } else {
             player_freebuild = new JLabel("0");
         }
         player_freebuild.setBounds(214, 390, 290, 45);
@@ -207,9 +202,9 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         slash3.setForeground(Color.white);
         slash3.setFont(customFont);
         slash3.setFont(s.getFont().deriveFont(23f));
-        if (Ping.freebuild == true){
+        if (Ping.freebuild == true) {
             player_guild = new JLabel(String.valueOf(Ping.guild_player));
-        }else{
+        } else {
             player_guild = new JLabel("0");
         }
         player_guild.setBounds(214, 483, 290, 45);
@@ -218,28 +213,48 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         player_guild.setFont(player_guild.getFont().deriveFont(23f));
 
 
+
         raison = new JLabel(ddb.raison);
         raison.setBounds(600, 200, 800, 400);
         raison.setForeground(new Color(231, 231, 231));
         raison.setFont(customFont);
         raison.setFont(raison.getFont().deriveFont(40f));
 
+        wlraison = new JLabel("Pour l'instant, le launcher n'est pas disponible.");
+        wlraison.setBounds(600, 200, 800, 400);
+        wlraison.setForeground(new Color(231, 231, 231));
+        wlraison.setFont(customFont);
+        wlraison.setFont(wlraison.getFont().deriveFont(23f));
+
+
+        if(!ddb.wluser.contains(launcher.username_player)){
+            remove(playButton);
+            remove(ramButton);
+            add(wlraison);
+        }else {
+            add(playButton);
+            add(ramButton);
+            repaint();
+
+        }
+
+        if (saver.get("token") != null){
+            add(playButton);
+            add(ramButton);
+            remove(wlraison);
+            repaint();
+        }
 
 
 
         add(s);
         this.add(radusbutton);
         this.add(quitButton);
-        this.add(ramButton);
-        this.add(playButton);
         this.add(progresseBar);
-        if (saver.get("token") != null) {
-            this.add(disconnectButton);
-        }
         this.add(etat_lobby);
         this.add(etat_freebuild);
         this.add(etat_guild);
-
+        this.add(disconnectButton);
         this.add(template1);
         this.add(slash1);
         this.add(player_lobby);
@@ -251,6 +266,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         this.add(player_guild);
 
 
+
         if (ddb.q != false){
             if(ddb.statue.contains("off")){
                 remove(playButton);
@@ -260,19 +276,26 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
             }
         }
 
+        if (ddb.q != false) {
 
+            if (ddb.perm.contains("Administrateur") || ddb.perm.contains("Moderateurplus")) {
+                add(playButton);
+                add(ramButton);
+                remove(raison);
+                repaint();
+            }
+        }
 
     }
 
 
-    public static void test()
-    {
-        try
-        {
+    public static void test() {
+        try {
 
 
             URL url = new URL(("http://api.craftmywebsite.fr/skin/face.php?u=" + launcher.username_player + "&s=64.png"));
             URLConnection conn = url.openConnection();
+            conn.setRequestProperty("User-Agent", "Mozilla/5.0");
             conn.setRequestProperty("User-Agent", "Mozilla/5.0");
             conn.connect();
             InputStream urlStream = conn.getInputStream();
@@ -285,11 +308,10 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         }
     }
 
-    public static void test2()
-    {
 
-        try
-        {
+    public static void test2() {
+
+        try {
 
             URL url = new URL(("http://api.craftmywebsite.fr/skin/face.php?u=" + HomePanel.saver.get("username_player") + "&s=64.png"));
             URLConnection conn = url.openConnection();
@@ -298,6 +320,9 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
             InputStream urlStream = conn.getInputStream();
             HomePanel.Head = ImageIO.read(urlStream);
             HomePanel.s.setText(HomePanel.saver.get("username_player"));
+
+
+
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
@@ -310,7 +335,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
     @Override
     public void onEvent(SwingerEvent e) {
 
-        if(e.getSource() == playButton) {
+        if (e.getSource() == playButton) {
 
 
             remove(playButton);
@@ -324,8 +349,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
                     try {
 
 
-                        if (saver.get("token") != null)
-                        {
+                        if (saver.get("token") != null) {
                             authToken(HomePanel.saver.get("token"), HomePanel.saver.get("clientToken"));
                         }
                         launcher.update();
@@ -353,16 +377,11 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
                 }
 
 
-
             };
             t.start();
-        }
-
-        else if(e.getSource() == quitButton) {
+        } else if (e.getSource() == quitButton) {
             System.exit(0);
-        }
-
-        else if(e.getSource() == this.disconnectButton){
+        } else if (e.getSource() == this.disconnectButton) {
             ProcessBuilder builder = new ProcessBuilder(launcher.SC_DIR + "\\Launcher\\Loggout.exe");
             try {
                 Process process = builder.start();
@@ -370,10 +389,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
                 ex.printStackTrace();
             }
             System.exit(0);
-        }
-
-
-        else if(e.getSource() == this.radusbutton){
+        } else if (e.getSource() == this.radusbutton) {
             HomeFrame.getInstance2().setState(JFrame.ICONIFIED);
         }
 
@@ -381,40 +397,37 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
             @Override
             public void run() {
 
-         if(e.getSource() == ramButton){
+                if (e.getSource() == ramButton) {
 
-             System.out.println("\"C:\\Program Files (x86)\\Nugarium\\runtime\\java" + "\\bin\\java\"");
-            if (statue == true){
-                statue = false;
-            }
-            else {
-                statue = true;
-            }
-             repaint();
+                    System.out.println("\"C:\\Program Files (x86)\\Nugarium\\runtime\\java" + "\\bin\\java\"");
+                    if (statue == true) {
+                        statue = false;
+                    } else {
+                        statue = true;
+                    }
+                    repaint();
 
-            if (statue2 == true){
-                statue2 = false;
-                try {
-                    TimeUnit.MILLISECONDS.sleep(40);
-                    add(HomeFrame.ramLabel);
-                    add(HomeFrame.ramBox);
-                    add(HomeFrame.optionLabel);
-                } catch (InterruptedException ex) {
-                    ex.printStackTrace();
+                    if (statue2 == true) {
+                        statue2 = false;
+                        try {
+                            TimeUnit.MILLISECONDS.sleep(40);
+                            add(HomeFrame.ramLabel);
+                            add(HomeFrame.ramBox);
+                            add(HomeFrame.optionLabel);
+                        } catch (InterruptedException ex) {
+                            ex.printStackTrace();
+                        }
+                    } else {
+                        statue2 = true;
+                        remove(HomeFrame.ramLabel);
+                        remove(HomeFrame.ramBox);
+                        remove(HomeFrame.optionLabel);
+                    }
+
+
                 }
-            }
-            else {
-                    statue2 = true;
-                    remove(HomeFrame.ramLabel);
-                    remove(HomeFrame.ramBox);
-                    remove(HomeFrame.optionLabel);
-            }
-
-
-        }
 
             }
-
 
 
         };
@@ -427,8 +440,7 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
         return progresseBar;
     }
 
-    public RamSelector getRamSelector()
-    {
+    public RamSelector getRamSelector() {
         return ramSelector;
     }
 
@@ -440,53 +452,40 @@ public class HomePanel extends JPanel implements SwingerEventListener, ActionLis
     public void paintComponent(Graphics g) {
         super.paintComponent(g);
 
+
         g.drawImage(background, 0, 0, this.getWidth(), this.getHeight(), this);
         g.drawImage(Head, 11, 24, 151, 151, this);
 
-        if (Ping.lobby == true){
+        if (Ping.lobby == true) {
             g.drawImage(etats_on_lobby, 25, 310, 12, 12, this);
-        }
-        else {
+        } else {
             g.drawImage(etat_off_lobby, 25, 310, 12, 12, this);
         }
 
-        if (Ping.freebuild == true){
+        if (Ping.freebuild == true) {
             g.drawImage(etats_on_freebuild, 25, 405, 12, 12, this);
-        }
-        else{
+        } else {
             g.drawImage(etats_off_freebuild, 25, 405, 12, 12, this);
         }
 
-        if (Ping.guild == true){
+        if (Ping.guild == true) {
             g.drawImage(etats_on_guild, 25, 497, 12, 12, this);
-        }
-        else{
+        } else {
             g.drawImage(etats_off_guild, 25, 497, 12, 12, this);
         }
 
         if (statue == true) {
-            g.drawImage(option_display, x, 16, this.getWidth(), this.getHeight(), this);
-            tm.start();
+            g.drawImage(option_display, 1000, 16, this.getWidth(), this.getHeight(), this);
             SwingUtilities.updateComponentTreeUI(HomeFrame.homePanel);
         }
-
+        Image contour = Swinger.getResource(ddb.perm);
+        g.drawImage(contour,11, 24, 151, 151, this);
 
     }
 
 
-    @Override
-    public void actionPerformed(ActionEvent e) {
-
-      if (x == 1280){
-            velx = -velx;
-      }
-      else if (x < 1000){
-          x = 1000;
-
-      }
-        x = x + velx;
-        repaint();
-
+    public static HomePanel getInstance() {
+        return instance;
     }
 
 }

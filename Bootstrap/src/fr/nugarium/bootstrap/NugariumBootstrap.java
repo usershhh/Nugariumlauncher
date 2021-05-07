@@ -121,6 +121,12 @@ public class NugariumBootstrap {
     private static void launchLauncher() throws IOException {
         Bootstrap bootstrap = new Bootstrap(SC_B_CP, SC_B_INFOS);
         Process p = bootstrap.launch();
+
+        try {
+            TimeUnit.SECONDS.sleep(3);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         splash.setVisible(false);
 
         try {

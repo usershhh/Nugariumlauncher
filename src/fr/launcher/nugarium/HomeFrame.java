@@ -1,5 +1,6 @@
 package fr.launcher.nugarium;
 
+import fr.launcher.nugarium.ddb.ddb;
 import fr.launcher.nugarium.options.ram.AbstractOptionFrame;
 import fr.launcher.nugarium.options.ram.RamSelector;
 import fr.theshark34.openlauncherlib.LanguageManager;
@@ -100,7 +101,6 @@ public class HomeFrame extends AbstractOptionFrame {
 
 			e.printStackTrace();
 		}
-
 
 	}
 

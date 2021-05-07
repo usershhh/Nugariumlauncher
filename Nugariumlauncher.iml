@@ -9,8 +9,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="launcher" level="project" />
     <orderEntry type="library" name="openauth-1.0.3-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="jsoup-1.13.1" level="project" />
-    <orderEntry type="library" name="com.mysql.jdbc_5.1.5" level="project" />
-    <orderEntry type="library" name="mariadb-java-client-2.7.2" level="project" />
+    <orderEntry type="library" name="gson-2.8.2" level="project" />
+    <orderEntry type="library" name="mysql-connector-java-8.0.15" level="project" />
   </component>
 </module>
